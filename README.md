@@ -13,10 +13,8 @@ npm i cli-fs-searcher
 
 After installation add to your .js file:
 
-``
-const searcher = require('cli-fs-searcher'); \n
-searcher();
-``
+``const searcher = require('cli-fs-searcher');``
+``searcher();``
 
 And them run in the terminal:
 
