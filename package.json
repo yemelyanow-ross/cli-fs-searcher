@@ -1,0 +1,35 @@
+{
+  "name": "cli-fs-searcher",
+  "version": "0.0.1",
+  "description": "Recursively walk through the filesystem, searching for files and directories while optional filtering.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cli-fs-searcher"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yemelyanow-ross/cli-fs-searcher"
+  },
+  "keywords": [
+    "fs",
+    "cli",
+    "filesearch",
+    "nodejs",
+    "js",
+    "search",
+    "file"
+  ],
+  "bin": {
+    "cli-fs-searcher": "index.js"
+  },
+  "author": "Ross Yemelyanow",
+  "email": "0313241@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+
+  },
+  "bugs": {
+    "url": "https://github.com/yemelyanow-ross/cli-fs-searcher/issues/"
+  },
+  "homepage": "https://github.com/yemelyanow-ross/cli-fs-searcher#readme"
+}
