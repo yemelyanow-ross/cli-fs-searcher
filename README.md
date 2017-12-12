@@ -14,8 +14,7 @@ npm i cli-fs-searcher
 After installation add to your .js file:
 
 ``
-const searcher = require('cli-fs-searcher');
-
+const searcher = require('cli-fs-searcher'); \n
 searcher();
 ``
 
