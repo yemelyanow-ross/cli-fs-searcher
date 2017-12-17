@@ -20,8 +20,9 @@
     "file"
   ],
   "bin": {
-    "cli-fs-searcher": "index.js"
+    "cli-fs-searcher": "./bin/cli-fs-searcher.js"
   },
+  "preferGlobal": true,
   "author": "Ross Yemelyanow",
   "email": "0313241@gmail.com",
   "license": "ISC",

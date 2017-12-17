@@ -6,21 +6,16 @@
 Install using npm:
 
 ``
-npm i cli-fs-searcher
+npm i -g cli-fs-searcher
 ``
 
 # Usage
 
-After installation add to your .js file:
+Run in the terminal:
 
-``const searcher = require('cli-fs-searcher');
- searcher();``
-
-And them run in the terminal:
-
-``
-node yourFile.js --[PARAMETER]=[ARGUMENT]
-``
+```
+cli-fs-searcher --[PARAMETER]=[ARGUMENT]
+```
 
 
 
@@ -40,7 +35,7 @@ node yourFile.js --[PARAMETER]=[ARGUMENT]
 # Example
 
 ``
-node index.js --PATTERN=.txt --MIN-SIZE=40B --MAX-SIZE=40K --TYPE=F --DIR=/home/rostislav/Downloads
+cli-fs-searcher --PATTERN=\.txt --MIN-SIZE=40B --MAX-SIZE=40K --TYPE=F --DIR=/home/rostislav/Downloads
 ``
 
 # License and Copyright
